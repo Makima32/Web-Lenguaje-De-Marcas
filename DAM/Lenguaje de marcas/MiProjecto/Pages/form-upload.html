@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="/Lenguaje de marcas/MiProjecto/css/style.css">
+</head>
+<body>
+  
+<!-- Page menu -->
+<header class="hero">
+  <nav class="navegation-menu">
+    <div class="nav-menu">
+      <div class="nav-menu-about"><a href="/Lenguaje de marcas/MiProjecto/Pages/About-us.html">Software</a></div>
+      <div class="nav-menu-woks">
+        <a href="/Lenguaje de marcas/MiProjecto/Pages/galeryAI-ART.html">
+          <i class="fas fa-images"></i> Galeria
+        </a>
+      </div>
+      <div class="logo">
+        <a href="/Lenguaje de marcas/MiProjecto/index.html">
+            <img src="/Lenguaje de marcas/MiProjecto/img/headerImage.png" alt="Logo">
+        </a>
+    </div>
+      <div class="nav-menu-shop"><a href="/Lenguaje de marcas/MiProjecto/Pages/shop.html">Tienda</a></div>
+      <div class="nav-menu-contact"><a href="/Lenguaje de marcas/MiProjecto/Pages/form-upload.html">Foro imagenes</a></div>
+    </div>
+  </nav>
+
+</header>
+
+  <div class="form-container">
+    <h1 id="form-upload">Formulario de subida</h1>
+    <form action=""  id="upload-form">
+      <!--User-->
+      <div class="form-group">
+        <label for="user"><h1>Nombre Usuario</h1></label>
+        <input type="text" id="user" name="user" placeholder="Nombre de usuario">
+        <span class="error" id="name-error">*Escriba un nombre de usuario</span>
+      </div>
+  
+      <!--Tipo arte-->
+      <div class="form-group">
+        <label for="options"><h1>Tipo de arte</h1></label>
+        <select id="options" name="options">
+          <option value="">Selecciona...</option>
+          <option value="opcion1">Original (No IA)</option>
+          <option value="opcion2">Hecho con IA</option>
+        </select>
+        <span class="error" id="options-error">*Elija una opción</span>
+      </div>
+  
+      <!--Correo-->
+      <div class="form-group">
+        <label for="email"><h1>Correo electrónico</h1></label>
+        <input type="email" id="email" name="email" placeholder="usuario32@gmail.com">
+        <span class="error" id="email-error">*Escriba un correo electrónico</span>
+      </div>
+  
+      <!--Checkbox-->
+      <div class="form-group" id="file-upload">
+          <h1>Subir imagen</h1>
+          <label for="image-upload"></label>
+
+        <input type="file" id="image-upload" name="image-upload" accept="image/*">
+        </label>
+        <span class="error" id="checkbox-error">*Debe confirmar esta opción</span>
+      </div>
+  
+      <!-- Botón de envío -->
+      <div class="form-group">
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+
+    <h1 id="tittle-user-art-div">Post de los usuarios </h1> 
+
+     
+  <div id="user-art-div">
+    
+    
+  </div>
+  <div id="delete-images-div">  <button id="delete-all-img-button">Eliminar todas las imagenes</button></div>
+
+ 
+
+  <script src="/Lenguaje de marcas/MiProjecto/js/validation.js"></script>
+  
+  <script src="/Lenguaje de marcas/MiProjecto/js/crud.js"></script>
+</body>
+
+</html>
