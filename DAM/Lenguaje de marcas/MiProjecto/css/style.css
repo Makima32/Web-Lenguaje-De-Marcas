@@ -54,7 +54,7 @@
 #home-text {
   position: absolute;
   top: 650px;
-  
+
   text-align: center;
   width: 100%;
 
@@ -378,7 +378,7 @@ body {
 
 .shop-topside {
 
-text-align: center;
+  text-align: center;
   font-size: 25px;
 }
 
@@ -513,23 +513,24 @@ text-align: center;
   font-weight: bold;
 }
 
-#delete-images-div{
+#delete-images-div {
   text-align: center;
-  
+
 
 
 }
 
-#delete-images-div button{
+#delete-images-div button {
   width: 200px;
   height: 200px;
   background-color: red;
   text-align: center;
   font-size: 40px;
-  
+
 
 
 }
+
 .form-group input,
 select,
 checkbox {
@@ -541,7 +542,7 @@ checkbox {
   padding: 3px;
   border: 1px solid #d38686;
   border-radius: 4px;
-  
+
 }
 
 .form-group button {
@@ -556,7 +557,7 @@ checkbox {
   border: none;
   border-radius: 4px;
   font-size: 10px;
-  
+
 }
 
 
@@ -590,34 +591,34 @@ checkbox {
 }
 
 
-#user-art-div{
-  
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-gap: 20%;
-background-color: rgba(151, 83, 83, 0.3);
-font-size: 20px;
-align-items: center;
-text-align: center;
-margin: 3%;
-justify-content: center;
+#user-art-div {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20%;
+  background-color: rgba(151, 83, 83, 0.3);
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  margin: 3%;
+  justify-content: center;
 }
 
 
-#user-art-div img{
-  
-position: relative;
+#user-art-div img {
+
+  position: relative;
   height: 500px;
   gap: 10px;
-  }
+}
 
-  #tittle-user-art-div{
-    background-color: rgb(200, 111, 111, 0.3);
-    text-align: center;
-    font-size: 60px;
-  }
-  
+#tittle-user-art-div {
+  background-color: rgb(200, 111, 111, 0.3);
+  text-align: center;
+  font-size: 60px;
+}
+
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .error {
@@ -693,7 +694,7 @@ position: relative;
   width: fit-content;
 }
 
-#steps-info-div{
+#steps-info-div {
   position: relative;
 
   font-size: 20px;
@@ -704,7 +705,7 @@ position: relative;
   right: 180px;
 }
 
-#what-software-i-use{
+#what-software-i-use {
   position: relative;
   top: 10px;
   display: flex;
@@ -715,7 +716,7 @@ position: relative;
   width: 100%;
 }
 
-#software-i-use-tittle{
+#software-i-use-tittle {
 
   position: relative;
   display: flex;
@@ -727,7 +728,7 @@ position: relative;
   font-size: 20px;
 }
 
-#software-i-use-text{
+#software-i-use-text {
 
   position: relative;
   display: flex;
@@ -739,7 +740,7 @@ position: relative;
   border-radius: 50px;
 }
 
-.tutorial-steps-div{
+.tutorial-steps-div {
 
   position: relative;
   text-align: center;
@@ -749,13 +750,14 @@ position: relative;
 }
 
 
-.tutorial-banner-div{
+.tutorial-banner-div {
   width: 100%;
 }
-.tutorial-banner-div img{
 
-width: 100%;
-height: 80%;
+.tutorial-banner-div img {
+
+  width: 100%;
+  height: 80%;
 
 }
 
@@ -770,7 +772,7 @@ height: 80%;
 
   /**/
 
- 
+
 
 
 
@@ -779,27 +781,28 @@ height: 80%;
 
   /*formulario medias---------------------------------------------------------------------------------------------------------------*/
 
-/* Pantallas grandes (Desktop - más de 1200px) */
-@media (min-width: 1200px) {
-  .form-container {
-    padding: 40px;
+  /* Pantallas grandes (Desktop - más de 1200px) */
+  @media (min-width: 1200px) {
+    .form-container {
+      padding: 40px;
+    }
+
+    .form-group input,
+    select,
+    checkbox {
+      width: 30%;
+      left: 35%;
+    }
+
   }
 
-  .form-group input,
-  select,
-  checkbox{
-    width: 30%; 
-    left: 35%; 
-  }
-
- }
   #file-upload input[type="file"] {
     width: 30%;
     left: 35%;
   }
 
   #form-upload {
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
   }
 }
 
@@ -813,7 +816,7 @@ height: 80%;
   select,
   checkbox,
   button {
-    width: 50%; 
+    width: 50%;
     left: 25%;
   }
 
@@ -823,7 +826,7 @@ height: 80%;
   }
 
   #form-upload {
-    font-size: 2rem; 
+    font-size: 2rem;
     text-align: center;
   }
 }
@@ -868,14 +871,14 @@ height: 80%;
   select,
   checkbox,
   button {
-    width: 60%; 
+    width: 60%;
     left: 20%;
-  
+
   }
 
   #file-upload input[type="file"] {
-    
-    
+
+
     width: 60%;
     left: 40%;
   }
@@ -885,7 +888,7 @@ height: 80%;
   }
 
   .form-group label {
-    
+
     text-align: left;
     margin-left: 10%;
   }
@@ -901,8 +904,8 @@ height: 80%;
   select,
   checkbox,
   button {
-    width: 80%; 
-    left: 10%; 
+    width: 80%;
+    left: 10%;
   }
 
   #file-upload input[type="file"] {
@@ -911,7 +914,7 @@ height: 80%;
   }
 
   #form-upload {
-    font-size: 40px; 
+    font-size: 40px;
     text-align: center;
   }
 
@@ -956,8 +959,7 @@ height: 80%;
   text-align: center;
 }
 
-Hover Effects
-.card:hover {
+Hover Effects .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
@@ -967,7 +969,7 @@ Hover Effects
 /* Pantallas Grandes (Desktop) */
 @media (min-width: 1200px) {
   .container-cards {
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
   }
 
   .card {
@@ -979,14 +981,14 @@ Hover Effects
 /* Pantallas Medianas (Tablets) */
 @media (max-width: 1199px) and (min-width: 768px) {
   .container-cards {
-    justify-content: center; 
-    gap: 20px; 
+    justify-content: center;
+    gap: 20px;
     flex-wrap: wrap;
-    
+
   }
 
   .card {
-    width: 250px; 
+    width: 250px;
     height: 350px;
   }
 
@@ -1003,23 +1005,23 @@ Hover Effects
 @media (max-width: 767px) {
   .container-cards {
     top: 500px;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px; 
+    gap: 15px;
     flex-wrap: wr ap;
     height: fit-content;
 
   }
 
   .card {
-    width: 90%; 
-    height: auto; 
-  
+    width: 90%;
+    height: auto;
+
   }
 
   .card img {
-    width: 100%; 
+    width: 100%;
     height: auto;
   }
 
@@ -1030,7 +1032,7 @@ Hover Effects
   .card-number {
     font-size: 14px;
   }
-  
+
 }
 
 
@@ -1039,15 +1041,15 @@ Hover Effects
 /* Pantallas grandes (Desktop) */
 @media (min-width: 1024px) {
   .nav-menu {
-    flex-direction: row; 
+    flex-direction: row;
   }
 }
 
 /* Pantallas medianas (Tablets) */
 @media (max-width: 1023px) and (min-width: 768px) {
   .nav-menu {
-    flex-direction: row; 
-    justify-content: space-around; 
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   .nav-menu a {
@@ -1058,21 +1060,21 @@ Hover Effects
 /* Pantallas pequeñas (Móviles) */
 @media (max-width: 767px) {
   .navegation-menu {
-    padding: 10px; 
+    padding: 10px;
   }
 
   .nav-menu {
-   
-    align-items: center; 
+
+    align-items: center;
   }
 
   .nav-menu a {
-    font-size: 14px; 
+    font-size: 14px;
     margin: 5px;
   }
 
   .nav-menu img {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
   }
 }
 
@@ -1202,7 +1204,7 @@ Hover Effects
     max-width: 800px;
     margin: 0 auto;
     font-size: 18px;
-    
+
   }
 
   .art-container {
@@ -1237,9 +1239,10 @@ Hover Effects
     padding: 20px;
     width: 100%;
 
-    
+
   }
-  .div-type-art-galley{
+
+  .div-type-art-galley {
 
     visibility: hidden;
   }
@@ -1250,12 +1253,13 @@ Hover Effects
     justify-content: center;
   }
 
-  .parameters-image-left{
+  .parameters-image-left {
     width: 80%;
     margin: 0 auto;
     padding: 15px;
 
   }
+
   .parameters-image-right {
     width: 80%;
     margin: 0 auto;
@@ -1266,23 +1270,23 @@ Hover Effects
 
 /* Pantallas pequeñas (Móviles) */
 @media (max-width: 767px) {
- 
+
 
   .sinopsis-anime-text {
     font-size: 14px;
     padding: 20px;
-    text-align: justify; 
+    text-align: justify;
   }
 
   .art-container {
-    flex-direction: row; 
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 50px;
     align-items: center;
   }
 
   .art-container img {
-    width: 80%; 
+    width: 80%;
     height: 900px;
   }
 
@@ -1303,10 +1307,9 @@ Hover Effects
     padding: 5px 0;
   }
 
-  .div-type-art-galley{
-visibility: hidden;
+  .div-type-art-galley {
+    visibility: hidden;
 
   }
 
 }
-

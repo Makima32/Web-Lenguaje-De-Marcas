@@ -47,7 +47,7 @@ function insertPostInArray(e) {
 
   const user = document.getElementById("user").value;
   const options = document.getElementById("options").value;
-  const imageUpload = document.getElementById("image-upload").files[0]; 
+  const imageUpload = document.getElementById("image-upload").files[0];
 
   const reader = new FileReader();
 
@@ -60,10 +60,10 @@ function insertPostInArray(e) {
       image: imageUrl
     });
 
-    showPostUsers(); 
+    showPostUsers();
   };
 
-  reader.readAsDataURL(imageUpload); 
+  reader.readAsDataURL(imageUpload);
 }
 
 function insertPostInArrayAndShow(e) {
@@ -76,7 +76,7 @@ function listenForDeleteButton() {
 }
 function deleteAllImages() {
   postUsersArray = [];
-  
+
   showPostUsers();
 }
 

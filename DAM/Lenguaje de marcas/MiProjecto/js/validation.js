@@ -15,36 +15,36 @@ function validateUploadForm(e) {
   let valid = true;
 
   if (!USER) {
-      document.getElementById("name-error").style.visibility = "visible";
-      valid = false;
+    document.getElementById("name-error").style.visibility = "visible";
+    valid = false;
   } else {
-      document.getElementById("name-error").style.visibility = "hidden";
+    document.getElementById("name-error").style.visibility = "hidden";
   }
 
   if (!OPTIONS) {
-      document.getElementById("options-error").style.visibility = "visible";
-      valid = false;
+    document.getElementById("options-error").style.visibility = "visible";
+    valid = false;
   } else {
-      document.getElementById("options-error").style.visibility = "hidden";
+    document.getElementById("options-error").style.visibility = "hidden";
   }
 
   if (!EMAIL || !validateEmail(EMAIL)) {
-      document.getElementById("email-error").style.visibility = "visible";
-      valid = false;
+    document.getElementById("email-error").style.visibility = "visible";
+    valid = false;
   } else {
-      document.getElementById("email-error").style.visibility = "hidden";
+    document.getElementById("email-error").style.visibility = "hidden";
   }
 
   if (!IMAGE) {
-      document.getElementById("checkbox-error").style.visibility = "visible";
-      valid = false;
+    document.getElementById("checkbox-error").style.visibility = "visible";
+    valid = false;
   } else {
-      document.getElementById("checkbox-error").style.visibility = "hidden";
+    document.getElementById("checkbox-error").style.visibility = "hidden";
   }
 
   if (valid) {
-      saveData(USER, OPTIONS, EMAIL, IMAGE);
-      alert("Formulario enviado correctamente.");
+    saveData(USER, OPTIONS, EMAIL, IMAGE);
+    alert("Formulario enviado correctamente.");
   }
 }
 
