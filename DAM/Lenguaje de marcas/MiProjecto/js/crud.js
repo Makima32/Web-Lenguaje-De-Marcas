@@ -1,6 +1,6 @@
 let postUsersArray = [
   {
-    user: "makim32",
+    user: "makima32",
     options: "IA",
     image: "/Lenguaje de marcas/MiProjecto/img/imagenes-usuarios-subidas/sukuna-AI.png"
   },
